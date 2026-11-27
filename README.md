@@ -4,132 +4,122 @@
 
 # System Management
 
-**Обслуживание и контроль ПК с Windows — в одном окне**
+**Windows PC maintenance and monitoring — in one window**
 
-Датчики и вентиляторы, очистка дисков, перенос данных, программы и автозагрузка,
-питание и восстановление. Каждое действие с риском — только после проверки и вашего подтверждения.
+Sensors and fans, disk cleanup, data transfer, apps and startup, power and recovery.
+Every risky action runs only after a review and your confirmation.
 
-[![Последняя версия](https://img.shields.io/github/v/release/KykMbawrk/system-management-releases?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=0ea5e9&style=for-the-badge)](https://github.com/KykMbawrk/system-management-releases/releases/latest)
-[![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#-требования)
-[![Скачивания](https://img.shields.io/github/downloads/KykMbawrk/system-management-releases/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&color=22c55e&style=for-the-badge)](https://github.com/KykMbawrk/system-management-releases/releases)
+[![Latest version](https://img.shields.io/github/v/release/KykMbawrk/system-management-releases?label=version&color=0ea5e9&style=for-the-badge)](https://github.com/KykMbawrk/system-management-releases/releases/latest)
+[![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#-requirements)
+[![Downloads](https://img.shields.io/github/downloads/KykMbawrk/system-management-releases/total?label=downloads&color=22c55e&style=for-the-badge)](https://github.com/KykMbawrk/system-management-releases/releases)
 
-### [⬇️ Скачать последнюю версию](https://github.com/KykMbawrk/system-management-releases/releases/latest)
+### [⬇️ Download the latest version](https://github.com/KykMbawrk/system-management-releases/releases/latest)
 
-<sub>Установщик <code>System-Management-Setup-*.exe</code> или Portable <code>System-Management-Portable-*.exe</code> — в разделе «Assets» выпуска</sub>
+<sub>On the release page, under <b>Assets</b>: the installer <code>System-Management-Setup-&lt;version&gt;.exe</code> or the portable <code>System-Management-Portable-&lt;version&gt;.exe</code></sub>
 
 </div>
 
 ---
 
-## ✨ Возможности
+## ✨ Features
 
-### 🖥️ Система и мониторинг
-
-| | |
-|---|---|
-| **Обзор ПК** | Процессор, плата, видеокарта, память, диски и состояние системы на одном экране. Копирование и экспорт отчёта. Проверка, всё ли готово для полной работы программы, — с подсказкой, что сделать, если нет. |
-| **Датчики** | Температуры, загрузка, вентиляторы, питание и сеть в реальном времени, графики за 60 секунд и 5 минут. Оповещения о перегреве — с общим порогом или своим для каждого датчика. Экспорт в CSV. |
-| **Мониторы** | Подключённые экраны, их разрешение и частота обновления; кнопка «Определить», чтобы понять, какой экран какой. Новые параметры применяются на пробу: без вашего подтверждения через несколько секунд вернутся прежние. |
-
-### 🧹 Очистка и память
+### 🖥️ System & Monitoring
 
 | | |
 |---|---|
-| **Очистка дисков** | Временные файлы, кэш приложений, системное обслуживание Windows и сжатие. Готовые наборы «Рекомендуемое» и «Максимальная очистка». Сначала сканирование и проверка, потом подтверждение — **ничего не удаляется без вашего согласия**. Отчёт о каждом прогоне. |
-| **Расписание** | Автоматическая очистка по расписанию без открытия окна, с выбранным профилем задач. Отдельное лёгкое расписание только для кэша приложений — его можно ставить хоть каждый день. |
-| **Перенос данных** | Перенос больших папок на другой локальный NTFS-диск: на старом месте остаётся ссылка, программы ничего не замечают. Проверка перед переносом, возврат папки обратно в любой момент. |
-| **Проводник** | Файловый менеджер с полными правами: видит скрытые и системные объекты, групповое переименование, поиск самых больших файлов и папок, атрибуты и смена владельца. Защищённые системные папки изменить нельзя — даже случайно. |
+| **PC Overview** | CPU, motherboard, graphics card, memory, drives and system status on one screen. Copy or export the report. A readiness check shows whether everything the app needs is in place — and what to do if it isn't. |
+| **Sensors** | Temperatures, load, fans, power and network in real time, with 60-second and 5-minute charts. Overheating alerts with a shared threshold or a separate one for each sensor. Export to CSV. |
+| **Monitors** | Connected displays with their resolution and refresh rate; the **Identify** button shows which screen is which. New display settings are applied on trial: unless you confirm them, the previous ones come back after a few seconds. |
 
-### 📦 Приложения и автозагрузка
-
-| | |
-|---|---|
-| **Установка и удаление** | Установленные программы и их удаление вместе с «хвостами» в AppData и реестре; встроенные приложения Windows. |
-| **Автозагрузка** | Программы автозапуска, задания планировщика и сторонние службы. Отключение — безопасное действие, которое можно вернуть в любой момент. |
-
-### 🌡️ Железо и охлаждение
+### 🧹 Cleanup & Storage
 
 | | |
 |---|---|
-| **Охлаждение** | Управление вентиляторами материнской платы: калибровка, пресеты «Тихий 30 %», «Баланс 50 %», «Максимум 100 %», свои пресеты и кривые, отметка помп. Ручное управление действует, только пока открыта программа; одной кнопкой управление возвращается плате (BIOS/UEFI). Видеокарты не затрагиваются. |
-| **Управление питанием** | Таймер выключения или перезагрузки (15–120 минут), блокировка, сон, гибернация, выход из системы. Схемы электропитания, включая скрытую «Максимальную производительность». Перезагрузка в BIOS/UEFI, однократный безопасный режим, отчёт об износе батареи. |
+| **Disk Cleanup** | Temporary files, app caches, Windows maintenance and compression. Ready-made **Recommended** and **Maximum cleanup** presets. Scan and review first, then confirm — **nothing is deleted without your consent**. A report for every run. |
+| **Schedule** | Automatic cleanup on a schedule, without opening the window, with the task profile you choose. A separate lightweight schedule just for app caches — fine to run every day. |
+| **Data Transfer** | Move large folders to another local NTFS drive: a link stays in the old place, so programs notice nothing. Checks before the move, and you can move a folder back at any time. |
+| **Explorer** | A file manager with full rights: sees hidden and system items, batch rename, finds the largest files and folders, attributes and ownership. Protected system folders can't be changed — not even by accident. |
 
-### 🛡️ Система и безопасность
+### 📦 Apps & Startup
 
 | | |
 |---|---|
-| **Восстановление** | Точка восстановления Windows, отмена сжатия, возврат системных настроек, отключённых очисткой, журнал выполненных действий и возврат перенесённых папок. Каждая операция запускается отдельно. |
-| **Настройки** | Русский и английский интерфейс, тема светлая, тёмная или как в системе, проверка и установка обновлений, «Что нового», диагностика, журналы, экспорт и импорт настроек, обновление PowerShell и Windows Terminal, сброс настроек. |
+| **Applications** | Installed programs and their removal together with leftovers in AppData and the registry; built-in Windows apps. |
+| **Startup** | Startup programs, scheduled tasks and third-party services. Disabling is a safe action that you can undo at any time. |
+
+### 🌡️ Hardware & Cooling
+
+| | |
+|---|---|
+| **Cooling** | Motherboard fan control: calibration, **Quiet 30%**, **Balanced 50%** and **Maximum 100%** presets, your own presets and curves, pump marking. Manual control lasts only while the app is open; one button returns control to the board (BIOS/UEFI). Graphics cards are not touched. |
+| **Power Management** | Shutdown or restart timer (15–120 minutes), lock, sleep, hibernate, sign out. Power plans, including the hidden **Ultimate Performance**. Restart to BIOS/UEFI, one-time Safe Mode, battery wear report. |
+
+### 🛡️ System & Security
+
+| | |
+|---|---|
+| **Restore** | Windows restore point, undoing compression, bringing back Windows settings disabled by the cleanup, a journal of completed actions and moving transferred folders back. Each operation runs separately. |
+| **Settings** | English and Russian interface; light, dark or system theme; checking for and installing updates, What's New, diagnostics, logs, export and import of settings, PowerShell and Windows Terminal updates, settings reset. |
 
 ---
 
-## 🔒 Безопасность и обновления
+## 🔒 Security and updates
 
-- **Подписанные обновления.** Программа проверяет каждое обновление подписью разработчика (ECDSA P-256), а каждый файл — по размеру и SHA-256. Поддельное, повреждённое или устаревшее обновление не будет принято.
-- **Ничего без спроса.** Установщик обновления запускается только после вашего подтверждения; Portable-версия никогда не заменяет себя сама.
-- **Без уязвимых драйверов.** Старый драйвер WinRing0 полностью удалён. Для полного доступа к датчикам платы используется необязательный драйвер [PawnIO](https://pawnio.eu/), подписанный Microsoft; без него программа работает и честно показывает, какие датчики недоступны, вместо ложных нулей.
-- **Защита от ошибок.** Системные папки защищены от изменения, рискованные действия требуют отдельного подтверждения, большинство изменений можно вернуть в «Восстановлении».
+- **Signed updates.** The app verifies every update with the developer's signature (ECDSA P-256) and every file by size and SHA-256. A forged, damaged or outdated update is rejected.
+- **Nothing without asking.** The update installer starts only after you confirm it; the portable version never replaces itself.
+- **No vulnerable drivers.** The old WinRing0 driver has been removed completely. Full access to motherboard sensors uses the optional, Microsoft-signed [PawnIO](https://pawnio.eu/) driver; without it the app still works and honestly shows which sensors are unavailable instead of false zeros.
+- **Protection against mistakes.** System folders are protected from changes, risky actions need a separate confirmation, and most changes can be undone in **Restore**.
 
 ---
 
-## 📥 Установка
+## 📥 Installation
 
-| | Установщик | Portable |
+| | Installer | Portable |
 |---|---|---|
-| Файл | `System-Management-Setup-<версия>.exe` | `System-Management-Portable-<версия>.exe` |
-| Установка | Ставится в профиль пользователя, по желанию — ярлык на рабочем столе | Не нужна — один файл, можно носить на флешке |
-| Обновления | Скачиваются и устанавливаются после подтверждения | Скачиваются и проверяются; старый файл вы заменяете сами |
-| Первый запуск | Обычный | Дольше: программа распаковывает себя (~1 ГБ) в `%LOCALAPPDATA%`, дальше запускается сразу |
+| File | `System-Management-Setup-<version>.exe` | `System-Management-Portable-<version>.exe` |
+| Setup | Installs into your user profile; desktop shortcut optional | None — a single file you can even carry on a USB stick |
+| Updates | Downloaded and installed after your confirmation | Downloaded and verified; you replace the old file yourself |
+| First start | Normal | Slower: the app unpacks itself (~1 GB) into `%LOCALAPPDATA%`, after that it starts right away |
 
 > [!NOTE]
-> Файлы пока не подписаны сертификатом издателя, поэтому Windows может показать «Неизвестный издатель».
-> Нажмите **«Подробнее» → «Выполнить в любом случае»**. Контрольные суммы SHA-256 каждого файла указаны в описании выпуска.
+> The files are not signed with a publisher certificate yet, so Windows may show "Unknown publisher".
+> Click **More info → Run anyway**. The SHA-256 checksum of every file is listed on its release page.
 
-## 💻 Требования
+## 💻 Requirements
 
-- Windows 10 или Windows 11, 64-бит
-- Права администратора — программа запросит их при запуске (нужны для обслуживания системы)
-- Около 1 ГБ свободного места для Portable-версии
-- По желанию: [PawnIO](https://pawnio.eu/) — для датчиков и вентиляторов материнской платы
+- Windows 10 or Windows 11, 64-bit
+- Administrator rights — the app asks for them at startup (system maintenance needs them)
+- About 1 GB of free space for the portable version
+- Optional: [PawnIO](https://pawnio.eu/) for motherboard sensors and fans
 
-## ❓ Частые вопросы
+## ❓ FAQ
 
 <details>
-<summary><b>Почему программа просит права администратора?</b></summary>
+<summary><b>Why does the app ask for administrator rights?</b></summary>
 
-Очистка системных папок, управление службами, автозагрузкой, питанием и вентиляторами требуют прав администратора. Без них Windows эти действия не разрешит.
+Cleaning system folders and managing services, startup, power and fans require administrator rights — Windows doesn't allow these actions otherwise.
 </details>
 
 <details>
-<summary><b>Датчики платы или вентиляторы показываются как недоступные</b></summary>
+<summary><b>Motherboard sensors or fans show as unavailable</b></summary>
 
-Для прямого доступа к контроллеру материнской платы нужен драйвер PawnIO. Он необязателен: программа его не ставит и не удаляет сама. Установите PawnIO с официального сайта и перезапустите программу.
+Direct access to the motherboard controller needs the PawnIO driver. It's optional: the app neither installs nor removes it. Install PawnIO from its official website and restart the app.
 </details>
 
 <details>
-<summary><b>Как обновить Portable-версию?</b></summary>
+<summary><b>How do I update the portable version?</b></summary>
 
-В «Настройки → Обновление приложения» нажмите «Проверить обновления» и «Скачать». Новая версия сохранится в папку «Загрузки» уже проверенной. Закройте программу и замените старый файл новым — или просто запускайте новый файл.
+In **Settings → App Update**, click **Check for Updates** and then **Download**. The new version is saved to your **Downloads** folder, already verified. Close the app and replace the old file with the new one — or simply run the new file.
 </details>
 
 <details>
-<summary><b>Где исходный код?</b></summary>
+<summary><b>Which languages does the app support?</b></summary>
 
-Исходный код закрыт. Здесь публикуются только готовые сборки и подписанные манифесты обновлений.
+English and Russian. You can switch the language in **Settings**.
 </details>
 
----
-
 <details>
-<summary><b>🇬🇧 English</b></summary>
+<summary><b>Where is the source code?</b></summary>
 
-**System Management** is an all-in-one Windows PC maintenance and monitoring tool:
-
-- **Monitoring** — system overview, live sensors (temperatures, load, fans, power, network) with alerts and CSV export, displays.
-- **Cleanup** — temporary files, app caches, Windows maintenance and compression with scan → review → confirm; scheduled cleanup; moving large folders to another NTFS drive via junctions; full-rights file explorer with protected system paths.
-- **Apps & startup** — uninstall programs with leftovers, built-in Windows apps; startup entries, scheduled tasks and third-party services (reversible disable).
-- **Hardware** — motherboard fan control with calibration, presets and curves (returns control to BIOS on exit); power timer, sleep/hibernate/lock, power plans, reboot to UEFI, safe mode once, battery report.
-- **Recovery & settings** — restore point, undo compression and Windows settings changes, action journal; RU/EN, themes, signed in-app updates.
-
-Updates are verified with an ECDSA P-256 signed manifest plus size and SHA-256 of every file. Requires Windows 10/11 x64 and administrator rights. Download from [Releases](https://github.com/KykMbawrk/system-management-releases/releases/latest).
+The source code is closed. This repository only publishes ready-made builds and signed update manifests.
 </details>
