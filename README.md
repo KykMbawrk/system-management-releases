@@ -15,7 +15,7 @@ Every risky action runs only after a review and your confirmation.
 
 ### [⬇️ Download the latest version](https://github.com/KykMbawrk/system-management-releases/releases/latest)
 
-<sub>On the release page, under <b>Assets</b>: the installer <code>System-Management-Setup-&lt;version&gt;.exe</code> or the portable <code>System-Management-Portable-&lt;version&gt;.exe</code></sub>
+<sub>On the release page, use the <b>Download</b> buttons at the top: the <b>installer</b> or the <b>portable</b> version</sub>
 
 </div>
 
