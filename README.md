@@ -64,7 +64,7 @@ The gear icon at the bottom of the sidebar: English and Russian interface; light
 ## 🔒 Security and updates
 
 - **Signed updates.** The app verifies every update with the developer's signature (ECDSA P-256) and every file by size and SHA-256. A forged, damaged or outdated update is rejected.
-- **One-click updates.** When a new version is out, the app asks **Update now?** and does the rest by itself: downloads, verifies, installs and restarts — for both the installed and the portable version. A running folder transfer or cleanup is never cut short: the restart waits for it.
+- **One-click updates.** When a new version is out, the app asks **Update now?** and does the rest by itself: downloads, verifies, installs and restarts — for both the installed and the portable version. A portable copy updates in place — the same file under the same name — so your shortcuts keep working; a progress bar shows how far the update is. A running folder transfer or cleanup is never cut short: the restart waits for it.
 - **Nothing without asking.** The app checks for updates, but downloads and installs one only after you answer **Update now?**
 - **No vulnerable drivers.** The old WinRing0 driver has been removed completely. Full access to motherboard sensors uses the optional, Microsoft-signed [PawnIO](https://pawnio.eu/) driver; without it the app still works and honestly shows which sensors are unavailable instead of false zeros.
 - **Protection against mistakes.** System folders are protected from changes, risky actions need a separate confirmation, and most changes can be undone in **Restore**.
@@ -77,7 +77,7 @@ The gear icon at the bottom of the sidebar: English and Russian interface; light
 |---|---|---|
 | File | `System-Management-Setup-<version>.exe` | `System-Management-Portable-<version>.exe` |
 | Setup | Installs into your user profile; desktop shortcut optional | None — a single file you can even carry on a USB stick |
-| Updates | One click: the app downloads, installs and restarts itself | One click: the app replaces its own file and restarts |
+| Updates | One click: the app downloads, installs and restarts itself | One click: the app replaces its own file in place (same name — shortcuts keep working) and restarts |
 | First start | Normal | Slower: the app unpacks itself (~1 GB) into `%LOCALAPPDATA%`, after that it starts right away |
 
 > [!NOTE]
@@ -108,7 +108,7 @@ Direct access to the motherboard controller needs the PawnIO driver. It's option
 <details>
 <summary><b>How do I update the portable version?</b></summary>
 
-Since version 1.0.3 it updates itself: when the app finds a new version, it asks **Update now?** — confirm, and it downloads the new version, verifies it, replaces its own file and restarts. To check right away: **Settings → App Update → Check for Updates**.
+Since version 1.0.3 it updates itself: when the app finds a new version, it asks **Update now?** — confirm, and it downloads the new version, verifies it, replaces its own file in place — the same file under the same name, so your shortcuts keep working — and restarts. To check right away: **Settings → App Update → Check for Updates**.
 
 Version 1.0.2 and earlier: **Check for Updates**, then **Download** — the new file is saved to your **Downloads** folder; close the app and replace the old file with it, or simply run the new one.
 </details>
